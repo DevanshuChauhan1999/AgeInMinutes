@@ -8,6 +8,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:gravity="center_horizontal"
+    android:padding="16dp"
     >
 
     <TextView
@@ -31,5 +32,59 @@
         android:textSize="25sp"
         android:textStyle="bold"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:text="In Minutes"
+        android:textColor="@color/textRed"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/bgBtn"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Select Date"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:text="00/00/0000"
+        android:textColor="@color/text2"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+        android:textColor="@color/textRed"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:text="0000"
+        android:textColor="@color/text2"
+        android:textSize="35sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minutes"
+        android:textColor="@color/textRed"
+        android:textSize="15sp"
+        />
+
 
 </LinearLayout>
